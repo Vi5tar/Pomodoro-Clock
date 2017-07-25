@@ -1,0 +1,175 @@
+body {
+  background-color: black;
+  margin-top: 5%;
+}
+
+.triForceOutterBorder {
+  width: 0;
+  height: 0;
+  border-left: 500px solid transparent;
+  border-right: 500px solid transparent;
+  border-bottom: 500px solid #d4ce46;
+}
+
+.triForceOutterBlack {
+  position: relative;
+  left: -490px;
+  top: 5px;
+  width: 0;
+  height: 0;
+  border-left: 490px solid transparent;
+  border-right: 490px solid transparent;
+  border-bottom: 490px solid black;
+}
+
+.triForceInnerBorder {
+  position: relative;
+  left: -450px;
+  top: 25px;
+  width: 0;
+  height: 0;
+  border-left: 450px solid transparent;
+  border-right: 450px solid transparent;
+  border-bottom: 450px solid #d4ce46;
+}
+
+.triForceInnerBlack {
+  position: relative;
+  left: -440px;
+  top: 5px;
+  width: 0;
+  height: 0;
+  border-left: 440px solid transparent;
+  border-right: 440px solid transparent;
+  border-bottom: 440px solid black;
+}
+
+.tShard1 {
+  position: absolute;
+  left: -220px;
+  width: 0;
+  height: 0;
+  border-bottom: 220px solid #d4ce46;
+  border-left: 220px solid transparent;
+}
+
+.tShard2 {
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-top: 220px solid transparent;
+  border-left: 220px solid #d4ce46;
+}
+
+.tShard3 {
+  position: absolute;
+  top: 220px;
+  left: -440px;
+  width: 0;
+  height: 0;
+  border-bottom: 220px solid #d4ce46;
+  border-left: 220px solid transparent;
+}
+
+.tShard4 {
+  position: absolute;
+  top: 220px;
+  left: 220px;
+  width: 0;
+  height: 0;
+  border-top: 220px solid transparent;
+  border-left: 220px solid #d4ce46;
+}
+
+.tShard5 {
+  position: absolute;
+  top: 220px;
+  left: -220px;
+  width: 0;
+  height: 0;
+  border-top: 220px solid #d4ce46;
+  border-left: 220px solid transparent;
+}
+
+.tShard6 {
+  position: absolute;
+  top: 220px;
+  left: -220px;
+  width: 0;
+  height: 0;
+  border-top: 220px solid transparent;
+  border-left: 220px solid #d4ce46;
+}
+
+.tShard7 {
+  position: absolute;
+  top: 220px;
+  width: 0;
+  height: 0;
+  border-bottom: 220px solid transparent;
+  border-left: 220px solid #d4ce46;
+}
+
+.tShard8 {
+  position: absolute;
+  top: 220px;
+  width: 0;
+  height: 0;
+  border-bottom: 220px solid #d4ce46;
+  border-left: 220px solid transparent;
+}
+
+.font {
+  font-size: 580%;
+  color: #088C5A;
+}
+
+.workTimer {
+  position: absolute;
+  left: 0px;
+  z-index: 5;
+  width: 300px;
+  height: 300px;
+}
+
+.breakTimer {
+  position: absolute;
+  right: 0px;
+  z-index: 5;
+  width: 300px;
+  height: 300px;
+}
+
+.bigBox {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  width: 1000px;
+  height: 600px;
+}
+
+.startButton {
+  background-color: black;
+  border: black;
+  width: 200px;
+  height: 200px;
+}
+
+.startButton:hover {
+  background-color: black;
+}
+
+.startButton:active {
+  background-color: black;
+}
+
+.linkImage {
+  width: 200px;
+  height: 200px;
+}
+
+.timerImage {
+  width: 54px;
+  height: 54px;
+}
